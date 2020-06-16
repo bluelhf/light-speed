@@ -1,7 +1,7 @@
 class Star {
   constructor(x, y, colour, size) {
     this.colour = colour;
-    this.size = size; // Maybe this could be part of the constructor parameters?
+    this.size = size;
     this.pos = createVector(x, y);
 
     this.dead = false;
